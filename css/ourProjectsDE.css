@@ -1,0 +1,10 @@
+.header__language {
+  margin-left: 200px;
+}
+
+
+@media (max-width: 1269.98px) {
+  .header__language {
+      margin-left: 50px;
+  }
+}

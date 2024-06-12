@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+
+  
+  <link rel="stylesheet" href="css/aboutUs.css">
+  <link rel="stylesheet" href="css/aboutUsDE.css">
+
+  <script src="js/aboutUs.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+
+  <title>ABOUT US</title>
+</head>
+<body>
+
+  
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <a href="indexDE.html" class="header__logo">
+          <img src="img/header/logo.svg" alt="STANDARD BUD">
+        </a>
+        <button class="header__burger" id="burger-button">
+          <span class="burger__up"></span>
+          <span class="burger__down"></span>
+        </button>
+        <nav class="header__menu menu" id="header-menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="indexDE.html" class="menu__link">zuhause</a>
+            </li>
+            <li class="menu__item">
+              <a href="aboutUsDE.html" class="menu__link"><span class="menu__linkON">über uns</span></a>
+            </li>
+            <li class="menu__item">
+              <a href="ourProjectsDE.html" class="menu__link">projekte</a>
+            </li>
+            <li class="menu__item">
+              <a href="jopDE.html" class="menu__link">stellenangebot</a>
+            </li>
+            <li class="menu__item">
+              <a href="contactDE.html" class="menu__link">kontakte</a>
+            </li>
+          </ul>
+          <div class="header__language language">
+            <ul class="language__list">
+              <li class="language__item">
+                <a href="indexPL.html" class="language__link">PL</a>
+              </li>
+              <li class="language__item">
+                <a href="index.html" class="language__link">ENG</a>
+              </li>
+              <li class="language__item">
+                <a href="indexDE.html" class="language__link"><span class="language__linkON">DE</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    
+    
+
+    
+
+    <main class="page">
+
+      <section class="page__main main-block">
+        <div class="main-block__container">
+          <div class="main-block__body body-main-block">
+            <div class="body-main-block__content content-main-block">
+              <h1 class="content-main-block__title textContainer">Die Baufirma, die zählt
+                und <span>Branchenregeln setzt</span></h1>
+              <div id="content" class="content-main-block__content hidden">
+                <div class="bg__image">
+                  <img src="img/About_Us/bg.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="page__ourmission ourmission-block">
+        <div class="ourmission-block__container">
+          <div class="ourmission-block__body">
+            <div class="ourmission-block__content">
+              <h2 class="ourmission-block__title"><span>/</span>Über uns</h2>
+              <div class="ourmission-block__text">Bei Standard Bud haben wir unseren Ansatz zum Bau sorgfältig entwickelt, <span>um eine nahtlose Abstimmung</span> zwischen Projektbeteiligten sicherzustellen, von Endbenutzern über Managementteams bis hin zu Investoren.
+              </div>
+              <div class="ourmission-block__text">
+                <span>Unser strategischer Fokus liegt auf </span>Bereichen mit robustem Bedarf, aber begrenztem Angebot aufgrund von Hindernissen für groß angelegte Investitionen. Wir sind auf die Schaffung von Immobilienlösungen spezialisiert, die nicht nur von hoher Qualität, sondern auch erschwinglich und für eine breite Palette von Endbenutzern zugänglich sind.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="page__ourcompany ourcompany-block">
+        <div class="ourmission-block__container">
+          <h2 class="content-projects-block__title company__title"><span>/</span>Spezialgebiete unseres Unternehmens</h2>
+          <div class="ourcompany__body">
+            <div class="card open" id="card1">
+              <div class="left-column">/01</div>
+              <div class="right-column">
+                <div class="ourcompany__right">
+                  <div class="ourcompany__title">Branchenfokus</div>
+                  <div class="ourcompany__text">
+                    Wir konzentrieren uns auf Branchen mit sich entwickelnden Bedürfnissen und erheblicher Nachfrage, in denen traditionelle Investitionshemmnisse das Angebot beeinträchtigen. Obwohl unsere Expertise hauptsächlich im Wohnungsbau und im Gewerbebau liegt, sind wir anpassungsfähig und versiert in verschiedenen Branchen, in denen langfristige Grundlagen mit unserer Vision übereinstimmen.
+                  </div>
+                  <div class="ourcompany__image">
+                    <img src="img/Our__Mission/01.jpg" alt="01">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="card2">
+              <div class="left-column">/02</div>
+              <div class="right-column">
+                <div class="ourcompany__right">
+                  <div class="ourcompany__title">Flexible Zahlung</div>
+                  <div class="ourcompany__text">
+                    Bei Standard Bud akzeptieren wir Grundstücke als Zahlungsmittel für Immobilientransaktionen, um unseren Kunden Flexibilität und Bequemlichkeit zu bieten. Diese Option ermöglicht es Kunden, ihre vorhandenen Vermögenswerte zu nutzen, um neue Immobilien zu erwerben, und erleichtert reibungslose Transaktionen sowie die Erweiterung der Möglichkeiten auf dem Immobilienmarkt.
+                  </div>
+                  <div class="ourcompany__image">
+                    <img src="img/Our__Mission/02.jpg" alt="02">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card" id="card3">
+              <div class="left-column">/03</div>
+              <div class="right-column">
+                <div class="ourcompany__right">
+                  <div class="ourcompany__title">Einfluss auf Standards</div>
+                  <div class="ourcompany__text">
+                    Unser Engagement für Exzellenz übertrifft Branchenstandards und setzt neue Maßstäbe in Qualität, Effizienz und Innovation. Erfahren Sie, wie unsere modernen Technologien und kundenorientierten Ansätze Standards neu definieren und unvergleichliche Erlebnisse für unsere Kunden und Stakeholder gewährleisten.
+                  </div>
+                  <div class="ourcompany__image">
+                    <img src="img/Our__Mission/03.jpg" alt="03">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+
+
+      <section class="page__projects projects-block" id="projects">
+        <div class="projects-block__container">
+          <div class="projects-block__body body-projects-block">
+            <div class="body-projects-block__content content-projects-block">
+              <div class="content-projects-block__head">
+                <h2 class="content-projects-block__title"><span>/</span>unsere Projekte</h2>
+                <div class="content-projects-block__button">
+                  <a href="ourProjectsDE.html" class="button">MEHR PROJEKTE</a>
+                </div>
+              </div>
+      
+              <div id="scrollContainer" class="content-projects-block__cards">
+                <!-- Hier sind die Projekt-Karten platziert -->
+                <div class="content-projects-block__card projects-card">
+                  <a href="Projects/modernityInGlassWallsDE.html">
+                    <div class="projects-card__head">
+                      <h3 class="projects-card__title">Moderne in<br>Glaswänden</h3>
+                      <div class="projects-card__number">/01</div>
+                    </div>
+                    <div class="projects-card__image">
+                      <img src="img/Our__Projects/04.jpg" alt="01">
+                    </div>
+                    <div class="projects-card__text">
+                      Wo elegante Raffinesse auf modernes Leben durch expansives Glasdesign trifft. Willkommen in transparentem Wohnen.
+                    </div>
+                  </a>
+                </div>
+                <!-- Fügen Sie die restlichen Karten hinzu -->
+                <div class="content-projects-block__card projects-card">
+                  <a href="Projects/greenOasisDE.html">
+                    <div class="projects-card__head">
+                      <h3 class="projects-card__title">Grüne<br>Oase</h3>
+                      <div class="projects-card__number">/02</div>
+                    </div>
+                    <div class="projects-card__image">
+                      <img src="img/Our__Projects/01.jpg" alt="02">
+                    </div>
+                    <div class="projects-card__text">
+                      Die Grüne Oase ist eine friedliche Mischung aus modernem Komfort und nachhaltigem Leben, eingebettet in üppige Gärten für ein ruhiges Leben.
+                    </div>
+                  </a>
+                </div>
+      
+                <div class="content-projects-block__card projects-card">
+                  <a href="Projects/futureOnTop.html">
+                    <div class="projects-card__head">
+                      <h3 class="projects-card__title">Zukunft<br>oben</h3>
+                      <div class="projects-card__number">/03</div>
+                    </div>
+                    <div class="projects-card__image">
+                      <img src="img/Our__Projects/02.jpg" alt="03">
+                    </div>
+                    <div class="projects-card__text">
+                      Setzt neue Maßstäbe für luxuriöses Wohnen mit innovativem Design, Umweltfreundlichkeit und atemberaubenden Ausblicken. Willkommen in der Zukunft des Luxus.
+                    </div>
+                  </a>
+                </div>
+      
+                <div class="content-projects-block__card projects-card">
+                  <a href="Projects/spaceForCreativityDE.html">
+                    <div class="projects-card__head">
+                      <h3 class="projects-card__title">Platz<br>für Kreativität</h3>
+                      <div class="projects-card__number">/04</div>
+                    </div>
+                    <div class="projects-card__image">
+                      <img src="img/Our__Projects/07.jpg" alt="04">
+                    </div>
+                    <div class="projects-card__text">
+                      Es ist ein Zufluchtsort für künstlerische Seelen und bietet eine inspirierende Umgebung für grenzenlose Vorstellungskraft. Willkommen in Ihrem kreativen Heiligtum.
+                    </div>
+                  </a>
+                </div>
+              </div>
+      
+              <div class="content-projects-block__down">
+                <a href="ourProjectsDE.html" class="button">MEHR PROJEKTE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+    </main>
+    <footer class="footer" id="footer">
+      <div class="main-footer__container">
+        <div class="footer__main main-footer">
+          <div class="main-footer__text">STANDARD BUD</div>
+        </div>
+        <div class="footer-contact__title">
+          <span>/</span>Kontaktieren Sie uns über
+        </div>
+        <div class="main-footer__body footer-body">
+          <div class="footer-body__content">
+            <div class="footer-body__contacts footer-contacts">
+              <a class="footer-contacts__mail" href="mailto:standardbud.agency@gmail.com">Standardbud.agency@gmail.com</a>
+              <div class="footer-contacts__telefones">
+                <a class="footer-contacts__telefon" href="tel:+48732619991">+48732619991</a>
+                <a class="footer-contacts__telefon"  href="tel:+48733740138" >+48733740138</a>
+              </div>
+            </div>
+            <div class="footer-mobile__buttons buttons-mobile footer__mobile">
+              <div class="buttons-mobile__body">
+                <a class="button-mobile button-mobile__email" href="mailto:standardbud.agency@gmail.com">E-Mail</a>
+                <a href="contact.html" class="button-mobile button-mobile__whatsapp">WhatsApp</a>
+              </div>
+            </div>
+            <div class="footer-body__copyright">
+              <div class="copyright">© 2024</div>
+              <a class="designed__by"href="mailto:hardmixagency@gmail.com">Entworfen von hardmixagency@gmail.com</a>
+            </div>
+          </div>
+          <div class="footer-body__buttons buttons-footer">
+            <div class="buttons-footer__body">
+              <a class="button-footer button-footer__email" href="mailto:standardbud.agency@gmail.com">E-Mail</a>
+              <a href="contact.html" class="button-footer button-footer__whatsapp">WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        STANDARD BUD
+      </div>
+    </footer>
+    
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+

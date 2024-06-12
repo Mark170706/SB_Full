@@ -1,0 +1,31 @@
+.projects-card1__title {
+  font-size: 40px;
+}
+
+
+.header__language {
+  margin-left: 200px;
+}
+
+
+@media (max-width: 1269.98px) {
+  .header__language {
+      margin-left: 100px;
+  }
+}
+
+
+
+
+@media (max-width: 575.98px) {
+    .projects-card1__title {
+        font-family: 'Unbounded';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 31px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #F8F8F8;
+    }
+}

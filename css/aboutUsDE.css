@@ -1,0 +1,22 @@
+.content-main-block__title {
+width: 850px;
+}
+
+
+
+.header__language {
+  margin-left: 200px;
+}
+
+
+@media (max-width: 1269.98px) {
+  .header__language {
+      margin-left: 50px;
+  }
+}
+@media (max-width: 990.98px) {
+  .content-main-block__title {
+    width: auto;
+    }
+    
+}
